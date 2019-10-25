@@ -1,0 +1,284 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(sawah.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  /*opacity: 0.95;*/
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#666600;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 25px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar .active{
+  color: black;
+  background-color:#CCCC00;
+  /*position: relative;*/
+}
+
+.sidebar .active2{
+  background-color: #165F3B;
+  /*position: relative;*/
+}
+
+.sidebar a:hover {
+  color: #000000;
+}
+
+
+.card{
+  padding: 0px 10px;
+  width:850px;
+  height:500px;
+  background:#666600;
+  margin-top: 75px;
+  margin-left: 23em;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+.card a{
+  text-decoration: none;
+  margin-left: 25%;
+  font-size: 20px;
+  background-color:#CCCC00;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 20px;
+
+}
+.card a:hover{
+ background-color: #097F44; 
+}
+
+.card p{
+  color: white;
+  text-align: center;
+  left: 10%;
+}
+
+.card form label{
+  color: white;
+}
+
+.card img{
+  height: 80%;
+  width: 31%;
+  float: left;
+  padding: 0px 20px;
+  position: relative;  
+}
+
+.card .left .image h3{
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+  }
+.content form{
+  float: left;
+  padding-left: 0px 10px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.content form input[type=text]{
+  width: 100%;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+
+form .content2{
+  float: right;
+  padding: 0px 70px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+/*
+.button {
+  position: center;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  font-size: 18px;
+}
+*/
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+form .content2 a{
+  width: 100px;
+  margin-left: 2em;
+}
+
+form .content2 input[type=text], input[type=date]{
+  width: 100%;
+  padding: 5px 13px;
+  box-sizing: border-box;
+}
+
+
+form .content2 input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 100px;
+  text-decoration: none;
+  margin: 14px 2px;
+  cursor: pointer;
+}
+
+form .content2 input[type=submit]:hover{
+  background-color: #089951;
+}
+
+
+.card-check{
+  padding: 0px 10px;
+  width:800px;
+  height:800px;
+  background:#666600;
+  margin-top: 75px;
+  margin-left: 22em;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card-check img{
+  /*height: 80%;*/
+  /*width: 31%;*/
+  float: left;
+  padding: 0px 40px;
+  padding-bottom: 50px;
+  position: relative;  
+}
+.card-check .hasil{
+  width: 50%;
+}
+.card-check h2{
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.card-check form h3{
+  color: white;
+  text-align: center;
+}
+
+.card-check form .content2{
+  float: right;
+  padding: 0px 42em;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.card-check .content2 label{
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+/*tr,td:hover{
+  color: black;
+}
+
+tr:hover {
+  background-color:#f5f5f5;
+}*/
+
+
+
+form .content3{
+  float: right;
+  padding: 25px 70px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+form .content3 a{
+  width: 100px;
+  margin-left: 2em;
+}
+
+form .content3 input[type=text], input[type=date]{
+  width: 100%;
+  padding: 5px 13px;
+  box-sizing: border-box;
+}
+
+
+form .content3 input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 100px;
+  text-decoration: none;
+  margin-left: 39%;
+  cursor: pointer;
+}
+
+form .content3 input[type=submit]:hover{
+  background-color: #089951;
+}
+
+.card-check .content3 label{
+  color: white;
+}
+
+.hasil center h3{
+  color: white;
+  margin-top: 80px;
+}
+
+.hasil center h4{
+  color: white;
+  /*margin-top: 80px;*/
+}

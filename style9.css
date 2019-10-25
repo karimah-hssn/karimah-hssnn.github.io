@@ -1,0 +1,170 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(sawah.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  /*opacity: 0.95;*/
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#666600;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 25px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar .active{
+  color: black;
+  background-color:#CCCC00;
+  /*position: relative;*/
+}
+
+.sidebar .active2{
+  background-color: #165F3B;
+  /*position: relative;*/
+}
+
+.sidebar a:hover {
+  color: #000000;
+}
+
+/*@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}*/
+
+.card{
+  padding: 0px 10px;
+  width:850px;
+  height:500px;
+  background:#666600;
+  margin-top: 75px;
+  margin-left: 23em;
+  border-radius: 5px 5px 5px 5px;
+}
+.card p{
+  left: 32%;
+    position: absolute;
+    width: 17%;
+    text-align: justify;
+    margin-top: 30px;
+    color: white;
+
+}
+.card h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+.card a{
+  text-decoration: none;
+  margin-left: 25%;
+  font-size: 20px;
+  background-color:#CCCC00;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 20px;
+
+}
+.card a:hover{
+ background-color: #097F44; 
+}
+
+.card p{
+  left: 32%;
+    position: absolute;
+    width: 15%;
+    text-align: justify;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+  }
+
+.card form label{
+  color: white;
+}
+
+.card img{
+  height: 80%;
+  width: 31%;
+  float: left;
+  padding: 0px 20px;
+  position: relative;  
+  opacity: 0.65;
+}
+.card .left .image h3{
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+  }
+.content form{
+  float: left;
+  padding-left: 0px 10px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.content form input[type=text]{
+  width: 100%;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+
+form .content2{
+  float: right;
+  padding: 0px 50px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+form .content2 a{
+  width: 100px;
+  margin-left: 2em;
+}
+
+form .content2 input[type=text], input[type=date]{
+  width: 100%;
+  padding: 5px 13px;
+  box-sizing: border-box;
+}
+
+
+form .content2 input[type=submit]{
+  background-color: #CCCC00;
+  border: none;
+  color: white;
+  padding: 7px 75px;
+  text-decoration: none;
+  margin: 14px 2px;
+  cursor: pointer;
+}
+
+form .content2 input[type=submit]:hover{
+  background-color: #089951;
+}

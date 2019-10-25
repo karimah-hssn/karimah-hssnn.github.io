@@ -1,0 +1,143 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(sawah.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#666600;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 25px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar .active{
+  color: black;
+  background-color:#CCCC00;
+}
+
+.sidebar .active2{
+  background-color: #165F3B;
+}
+
+.sidebar a:hover {
+  color: #000000;
+}
+
+.card-tanaman{
+  padding: 0px 10px;
+  width:850px;
+  height:800px;
+  background:#666600;
+  margin-top: 75px;
+  margin-left: 23em;
+  border-radius: 5px 5px 5px 5px;
+}
+/*.card p{
+  left: 32%;
+    position: absolute;
+    width: 17%;
+    text-align: justify;
+    margin-top: 30px;
+    color: white;
+*/
+}
+.card-tanaman h3{
+  padding: 30px 20px 20px;
+  font-size: 25px;
+  color: white;
+}
+.card-tanaman{
+  text-decoration: none;
+  margin-left: 25%;
+  font-size: 20px;
+  background-color: #808000;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 20px;
+  width: 800px;
+
+}
+.card a:hover{
+ background-color: #097F44; 
+}
+
+.card form label{
+  color: white;
+}
+
+.card img{
+  height: 80%;
+  width: 31%;
+  float: left;
+  padding: 0px 20px;
+  position: relative;  
+  opacity: 0.65;
+}
+.card .left .image h3{
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+  }
+.content{
+  margin-left: 70%;
+  padding-left: 0px 10px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  margin-top: -70%;
+
+}
+.card-tanaman .tanaman1 {
+  padding: 0px 5px;
+  width:400px;
+  height:100px;
+  background:#CCCC00;
+  margin-top: 20px;
+  margin-left: 10%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card-tanaman .button1{
+  margin-left: 38%;
+
+}
+
+.card-tanaman .tanaman1 label{
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.content form{
+  float: right;
+  padding: 5px 0px 150px;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+

@@ -1,0 +1,275 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+  }
+
+  header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),  url(sawah.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+  }
+
+  ul li{
+    display: inline-block;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+  }
+
+  ul li a:hover{
+    background-color: #fff; 
+    color: #000;
+
+  }
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+  .logo h1{
+    float: left;
+    width: 150px;
+    height: auto;
+  }
+
+  .main{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title h1{
+    color: white;
+    font-size: 70px;
+    font-family: "Gloss And Bloom"; 
+  }
+
+  .button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6 ease;
+  }
+
+  .btn:hover{
+    background-color: #fff; 
+    color: #000;
+  }
+
+  .box{
+    width: 500px;
+    height: 312px;
+    position: relative;
+    color: black;
+}
+
+  .box h3{
+    position: absolute;
+  }
+
+
+.container{
+  position: relative;
+}
+
+
+  .container .left img{
+    float: left;
+    width: 50%;
+    opacity: 0.9;
+  }
+
+  .container .left h1{
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+  }
+
+  .container .left h1:hover{
+    background-color: #fff; 
+    color: #000;
+  }
+
+  .container .right img{
+    float: right;
+    width: 50%;
+    opacity: 0.93; 
+
+  }
+
+  .container .right h1{
+    right: 10%;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+  }
+
+  .container .right h1:hover{
+    background-color: #fff; 
+    color: #000;
+  }
+
+  .container .center img{
+    width: 100%;
+  }
+
+  .container .center img:hover{
+    opacity: 0.8;
+  }
+
+  .center h1{
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-bottom: 5em;
+    top: 17em;
+    left: 35%;
+  }
+
+  .center h1:hover{
+    background-color: #fff; 
+    color: #000;
+  }
+
+  .container .center2 img{
+    width: 100%;
+  }
+
+  .container .center2 img:hover{
+  	background-color: #CCCC00;
+    opacity: 0.8;
+  }
+
+  .center2 h1{
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-bottom: 5em;
+    top: 35em;
+    left: 35%;
+  }
+
+  .center2 h1:hover{
+    background-color: #fff; 
+    color: #000;
+  }
+
+  .form-container{
+    height: 500px;
+    width: 500px;
+    color: black;
+  }
+
+
+.box {
+  border-radius: 5px;
+  background-color: #CCCC00;
+  padding: 15px;
+  top: 33%;
+  left: 30%;
+}
+
+
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  /*border-radius: 4px;*/
+  box-sizing: border-box;
+}
+ input[type=Password], select {
+  width: 100%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  /*border-radius: 4px;*/
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #666600;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #7FFF00;
+  color: #000000;
+}
+
+
+form h3{
+  text-align: center;
+  left: 45%;
+}
+
+form .kanan{
+  float: right;
+}
+
+form a{
+ text-decoration: none;
+ color: solid black;
+
+}
+
+form a:hover{
+  color: black;
+}
+
+form p{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+form .bantuan{
+  margin-left: 35%;
+  padding-top: 10px;
+}

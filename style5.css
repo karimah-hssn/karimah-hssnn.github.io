@@ -1,0 +1,184 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(sawah.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.95;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #666600;
+  overflow-x: hidden;
+  padding-top: 16px;g/
+}
+
+.sidebar a {
+  padding: 25px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar .active{
+  color: black;
+  background-color: #CCCC00;
+}
+
+.sidebar .active2{
+  background-color: #808000 ;
+}
+
+.sidebar a:hover {
+  color: #000000;
+}
+.card img{
+  height: 150px;
+  border-radius: 40%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 45px;
+}
+.card{
+  padding: 0px 10px;
+  width:850px;
+  height:310px;
+  background:#666600;
+  margin-top: 50px;
+  margin-left: 18em;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card h3{
+  margin-right: 7em;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.card label{
+  padding-left: 25px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px 50px 10px 10px;
+  color: white;
+}
+
+.card a{
+  text-decoration: none;
+  margin-left: 20em;
+  font-size: 20px;
+  background-color: #CCCC00;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 100px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card a:hover{
+ background-color: #097F44; 
+}
+
+.card img{
+  height: 200px;
+  float: left;
+  padding: 10px 10px;
+  padding-bottom: 10px;
+
+}
+.card-tanaman{
+  padding: 0px 10px;
+  width:600px;
+  height:870px;
+  background:#666600;
+  margin-top: 50px;
+  margin-left: 31%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card-tanaman h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.card-tanaman a{
+  text-decoration: none;
+  margin-left: 20em;
+  font-size: 20px;
+  background-color: #CCCC00;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 100em;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card-tanaman a:hover{
+ background-color: #097F44; 
+}
+
+.card-tanaman img{
+  height: 200px;
+  float: right;
+  padding-bottom: 10px 20px 30px;  
+}
+
+.image-card{
+  padding: 0px 10px;
+  width:600px;
+  height:200px;
+  background:#202F1D;
+  margin-top: 50px;
+  margin-left: 24em;
+  border-radius: 5px 5px 5px 5px;
+}
+.card-tanaman .tanaman1 {
+  padding: 0px 10px;
+  width:460px;
+  height:125px;
+  background:#808000;
+  margin-top: 20px;
+  margin-left: 10%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card-tanaman .button1{
+  margin-left: 38%;
+
+}
+
+.card-tanaman .tanaman1 label{
+  color: white;
+  font-size: 20px;
+}
+
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}

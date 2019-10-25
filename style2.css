@@ -1,0 +1,244 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(sawah.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.95;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #666600;
+  overflow-x: hidden;
+  padding-top: 16px;g/
+}
+
+.sidebar a {
+  padding: 25px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar .active{
+  color: black;
+  background-color: #CCCC00;
+}
+
+.sidebar .active2{
+  background-color: #808000 ;
+}
+
+.sidebar a:hover {
+  color: #000000;
+}
+
+.profile {
+  padding: 0px 10px;
+  width:600px;
+  height:200px;
+  background:#666600;
+  margin-top: 50px;
+  margin-left: 24em;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.profile img{
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.profile p{
+  padding: 0;
+  margin-left: 35%;
+  padding-top: 50px;
+  font-size: 26px;
+  color: white;
+}
+
+.profile a{
+  text-decoration: none;
+  margin-left: 19%;
+  font-size: 20px;
+  background-color: #CCCC00;
+  padding: 5px 10px 10px 10px;
+  color: white;    
+}
+.profile a:hover{
+   background-color: #7FFF00;
+  color: #000000
+}
+
+.card{
+  padding: 0px 10px;
+  width:850px;
+  height:310px;
+  background:#666600;
+  margin-top: 50px;
+  margin-left: 18em;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.card p{
+  padding-left: 15px;
+  font-size: 15px;
+  text-align: justify;
+  padding: 10px 50px 10px 10px;
+  color: white;
+}
+
+.card a{
+  text-decoration: none;
+  margin-left: 25%;
+  font-size: 20px;
+  background-color: #CCCC00;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 20px;
+}
+
+.card a:hover{
+   background-color: #7FFF00;
+  color: #000000
+}
+
+.card img{
+  height: 200px;
+  float: left;
+  padding: 10px 10px;
+  padding-bottom: 10px;
+
+}
+.card-tanaman{
+  padding: 0px 10px;
+  width:850px;
+  height:310px;
+  background:#666600;
+  margin-top: 50px;
+  margin-left: 18em;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card-tanaman h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.card-tanaman p{
+  padding-left: 15px;
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 5px;
+  color: white;
+  padding: 0px 10px 40px;
+
+}
+
+.card-tanaman a{
+  text-decoration: none;
+  margin-left: 25%;
+  font-size: 20px;
+  background-color: #CCCC00;
+  padding: 10px 10px 10px 10px;
+  color: white; 
+  margin-top: 20px;
+}
+
+.card-tanaman a:hover{
+   background-color: #7FFF00;
+  color: #000000
+}
+
+.card-tanaman img{
+  height: 200px;
+  float: right;
+  padding-bottom: 10px 20px 30px;  
+}
+
+.image-profile{
+  padding: 0px 10px;
+  width:600px;
+  height:200px;
+  background:#202F1D;
+  margin-top: 50px;
+  margin-left: 24em;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.image-profile img{
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px; 
+}
+
+.image-profile h3{
+  padding: 0;
+  margin-left: 30%;
+  padding-top: -50px;
+  font-size: 26px;
+  color: white;
+}
+
+.image-profile p{
+  margin-left: 30%;
+  font-size: 26px;
+  color: white;
+}
+
+
+
+.card2 {
+  background-color: #99CC00;
+  max-width: 280px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
